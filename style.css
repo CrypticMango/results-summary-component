@@ -131,9 +131,16 @@ button {
 }
 
 .attribution {
-	font-size: 11px;
+    margin-top: 20px;
+	font-size: 12px;
 	text-align: center;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-github {
+    font-size: 30px;
+    margin: 30px;
+    color: var(--dark-gray-blue);
 }
