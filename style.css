@@ -181,3 +181,80 @@ button {
     margin: 30px;
     color: var(--dark-gray-blue);
 }
+
+@media (min-width: 1440px) {
+    body {
+        max-width: 1440px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-top: 60px;
+    }
+
+    button {
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .top-blurb {
+        font-size: 20px;
+        padding: 0px 70px;
+    }
+
+    .top-section {
+        height: 550px;
+        width: 420px;
+        border-radius: 25px;
+        z-index: 2;
+    }
+
+    .number-circle {
+        width: 180px;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .seventy-six {
+        font-size: 80px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .one-hundred {
+        font-size: 20px;
+    }
+
+    .stats-section {
+        width: 340px;
+        height: 550px;
+        border-radius: 0px 25px 25px 0px;
+        z-index: 1;
+        padding: 0px 25px;
+    }
+
+    .stats {
+        font-size: 20px;
+    }
+
+    .attribution {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    
+}
