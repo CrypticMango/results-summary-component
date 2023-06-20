@@ -245,6 +245,7 @@ button {
         border-radius: 0px 25px 25px 0px;
         z-index: 1;
         padding: 0px 25px;
+        box-shadow: 15px 15px 40px rgb(225, 234, 252);
     }
 
     .stats {
@@ -255,6 +256,4 @@ button {
         font-size: 20px;
         margin-top: 40px;
     }
-
-    
 }
