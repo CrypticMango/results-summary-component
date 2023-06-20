@@ -63,6 +63,12 @@ button {
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
+button:hover {
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    border: 0px;
+    cursor: pointer;
+}
+
 .top-section {
    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
    border-radius: 0px 0px 30px 30px;
